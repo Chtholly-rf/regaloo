@@ -3,7 +3,6 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Me gustaría conocerte').split('');
     const titles = ('Unas flores con mucho cariño').split('');
 const titleElement = document.getElementById('title');
 let index = 0;
@@ -18,7 +17,6 @@ function appendTitle() {
 
 // Crear un nuevo elemento de texto adicional
 const additionalText = document.createElement("span");
-additionalText.innerHTML = "La verdad me llamaste la atencion hace un tiempo y me preguntaba como eras, por lo que me gustaria";
 additionalText.innerHTML = "sos un sol";
 additionalText.style.position = "absolute";
 additionalText.style.top = "0";
